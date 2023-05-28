@@ -9,7 +9,7 @@ variables:
 
 stages:
 - stage: Build_Stage
-  displayName: 
+  displayName: Build_Stage
   jobs:
   - job: BuildNuget
     displayName: Build Nuget packages
